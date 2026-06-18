@@ -1,0 +1,8 @@
+a=str(input("Enter a string:"))
+b=str(input("Enter a string:"))
+print(a)
+print(b)
+print(a+b)
+print(a==b)
+print(a.islower())
+print(b.isupper())
