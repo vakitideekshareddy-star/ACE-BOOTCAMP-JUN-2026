@@ -1,0 +1,17 @@
+list = []
+for i in range(5):
+    element = int(input())
+    list.append(element)
+print(list)
+list.append(60)
+print(list)
+print(list.index(30))
+list1 = list.copy()
+print(list1)
+print(list.count(2))
+list.reverse()
+print(list)
+list.pop(4)
+print(list)
+list.clear()
+print(list)
